@@ -8,7 +8,9 @@ const Layout = (props) => (
       <title>BitzPrice</title>
     </Head>
     <Navbar />
-    {props.children}
+    <div className="container">
+      {props.children}
+    </div>
   </div>
 );
 
